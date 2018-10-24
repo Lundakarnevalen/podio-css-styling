@@ -1,0 +1,29 @@
+body {
+  background-color: #fbbcc0;
+  color: #8b4897;
+}
+#webform:before {
+  background-image: url(https://files.podio.com/515735871);
+  background-size: cover;
+  background-position: 50% 100%;
+  content: "";
+  width: 100%;
+  min-height: 400px;
+  position: relative;
+  display: block;
+}
+.help-block {
+  color: #8b4897;
+}
+#webform {
+  width: 100%;
+}
+.powered-by-podio__link p {
+  display: none;
+}
+.powered-by-podio__image:after {
+  padding-top: 56px;
+  content: "Designed by Nille";
+  position: relative;
+  display: block;
+}
